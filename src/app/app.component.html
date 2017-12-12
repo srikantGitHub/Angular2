@@ -1,0 +1,18 @@
+<div style="text-align:center">
+	<h1>
+	{{title}}
+	</h1>
+</div>
+<div class="test">
+   <ol>
+     <li *ngFor="let cource of cources">
+       {{cource}}
+    </li>
+   </ol>
+   <ol>
+     <li *ngFor="let f of fir">
+       {{f.firstname}}, {{f.lastname}}, {{f.email}}, {{f.role}}
+    </li>
+   </ol>
+
+</div>
